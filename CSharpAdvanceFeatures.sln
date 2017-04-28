@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Advance-Feature", "Linq\CSharp-Advance-Feature.csproj", "{CC34641E-F2FB-410E-9F98-8D14C8DDA654}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAndPLinq", "TaskAndPLinq\TaskAndPLinq.csproj", "{84F39059-E17E-46F8-B218-0A9B00F6E3EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Advance-Feature", "advanceFeatures\CSharp-Advance-Feature.csproj", "{CC34641E-F2FB-410E-9F98-8D14C8DDA654}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CC34641E-F2FB-410E-9F98-8D14C8DDA654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC34641E-F2FB-410E-9F98-8D14C8DDA654}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC34641E-F2FB-410E-9F98-8D14C8DDA654}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC34641E-F2FB-410E-9F98-8D14C8DDA654}.Release|Any CPU.Build.0 = Release|Any CPU
 		{84F39059-E17E-46F8-B218-0A9B00F6E3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{84F39059-E17E-46F8-B218-0A9B00F6E3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F39059-E17E-46F8-B218-0A9B00F6E3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84F39059-E17E-46F8-B218-0A9B00F6E3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC34641E-F2FB-410E-9F98-8D14C8DDA654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC34641E-F2FB-410E-9F98-8D14C8DDA654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC34641E-F2FB-410E-9F98-8D14C8DDA654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC34641E-F2FB-410E-9F98-8D14C8DDA654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
