@@ -14,7 +14,7 @@ namespace TaskAndPLinq
      * 
      * Why we need?
      * (TO SAFELY EXCHANGE DATA)
-     * Main thread/program spans a new thread to do complex calcultion in background 
+     * Main thread/program spawns a new thread to do complex calcultion in background 
      * the thread loops and produces result after every milisecond, main thread wait for
      * result and picks one by one.
      * This kind of workflow is implemented using AutoResetEvent

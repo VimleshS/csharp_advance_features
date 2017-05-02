@@ -41,9 +41,9 @@ namespace TaskAndPLinq
                     Console.WriteLine("No Return");
                 },
                 TaskCreationOptions.LongRunning
-                /*Marks the task as long running and thead is not spanned from THreadPool thus saving 
+                /*Marks the task as long running and thead is not spawned from ThreadPool thus saving 
                  * the performance of threadpool
-                 * Since Threadpool threads are only for shorter thread execution time.
+                 * Since Threadpool threads are only for shorter lived thread execution time.
                  */
             );
 

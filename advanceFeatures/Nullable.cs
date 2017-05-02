@@ -24,7 +24,7 @@ namespace Linq
             //Null Coalsing operator.
             dt = date2 ?? DateTime.Today;
 
-            //Ternarary Operator
+            //Ternary Operator
             var dt2 = date2 != null ? date2.GetValueOrDefault() : DateTime.Today;
         }
 

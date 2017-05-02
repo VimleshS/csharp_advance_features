@@ -9,7 +9,7 @@ namespace TaskAndPLinq
         private static int _value_d = 1;
         
         /*
-         * Locking object should alays be private, so it is not global and any other thread uses it to lock.
+         * Locking object should alays be private, so it is not global and any other thread cannot uses it to lock.
          * 
          * We can use nesting lock/Monitor.Enter
          * 

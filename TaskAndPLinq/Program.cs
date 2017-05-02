@@ -38,10 +38,6 @@ namespace TaskAndPLinq
 
             Plinq.PLinqForceFullyExecuteReversal();
             Plinq.PLinqForceFullyExecuteOrderedReversal();
-
-
-
-
         }
 }
 }

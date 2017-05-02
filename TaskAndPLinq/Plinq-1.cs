@@ -30,7 +30,7 @@ namespace TaskAndPLinq
             string sentence = "A Quick brown fox jumps over a lazy dog";
             var reversedWords = sentence.Split()
                 //converts it to parallel linq one gotcha.. 
-                //LINQ decides itself depending upon overhead that will it run on parallel or sequence
+                //*** LINQ decides itself depending upon overhead that will it run on parallel or sequence ***
                 .AsParallel()  
 
                 .Select(word => new string(word.Reverse().ToArray()));

@@ -51,7 +51,6 @@ namespace delegates
     {
 
         //Case 1
-        
         public void Process(string path)
         {
             var photo = Photo.Load(path);
@@ -60,7 +59,7 @@ namespace delegates
             //this is not flexible or extensible.
             //a new filters cannot be applied with this approch
             //breaks OC principles
-            //This can be solved by delegates and interfaces by some polymorphism
+            //This can be solved by delegates or interfaces by using some polymorphism
 
             filters.ApplyBrightness(photo);
             filters.ApplyContrast(photo);
@@ -80,7 +79,8 @@ namespace delegates
             photo.Save();
         }
 
-        //Case 3
+        //Case 3 
+        //Use built in Action delegate
         public void Process_3(string path, Action<Photo> filterHandler)
         {
             var photo = Photo.Load(path);

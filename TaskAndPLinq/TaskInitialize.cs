@@ -37,7 +37,6 @@ namespace TaskAndPLinq
             string message = "PassthistoTaskViaCaputured Variable.....";
             var task = Task.Factory.StartNew((state) => {
                 Console.WriteLine(message);
-                
             }, "messageTask");
             task.Wait();
         }

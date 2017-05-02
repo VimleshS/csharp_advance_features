@@ -42,6 +42,7 @@ namespace TaskAndPLinq
      *    Below Chart summaries the operations
      *    
      *    Library                   Automatic Features
+     *    ----------------------------------------------------
      *    Tasks                 No mapping, no reducing
      *    Parallel Class        Automatic mapping, no reducing
      *    PLINQ                 Automatic mapping and reducing
@@ -121,7 +122,7 @@ namespace TaskAndPLinq
         public static void TestMapReduce()
         {
             //Combination of Hirarchcal Task and Sequential task
-            string sentence = "A Quick brown fox jumps over a lazy dog";
+            string sentence = "The quick brown fox jumps over the lazy dog";
             var task = Task<string[]>.Factory.StartNew(() => Map(sentence))
                 .ContinueWith<String[]>(t => Process(t.Result))
                 .ContinueWith<string>(t => Reduce(t.Result));
